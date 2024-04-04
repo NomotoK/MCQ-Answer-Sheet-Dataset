@@ -1,12 +1,10 @@
 # MCQ-Dataset
-A dataset containing answers from the answer sheet and examples of student ID filling, used for training machine-readable answer sheet recognition models, divided into answer dataset and ID dataset. For a detailed description of this dataset, please refer to/data/description.json in this repo.
+A dataset containing answers from the answer sheet and examples of student ID filling, used for training machine-readable answer sheet recognition models, divided into answer dataset and ID dataset. For a detailed description of this dataset, **please refer to/data/description.json in this repo.**
 
+## Overview
 
-## Terms and Conditions
-- This data set comes from the customized answer sheets of the University of Liverpool. If you use other types of answer sheets(such as SAT answer sheets), the recognition results may be inaccurate.
-- This dataset does not contain any personal information. All raw data do not come from real exam answer sheets, but are filled in manually by the author(s).
-- Commercial use of this dataset is prohibited. If you use this dataset in your project, please include the copyright notice and this permission statement in the software and in all copies of the software.
-
+- Answer dataset: Records examples of answers filled by students, categorized into 'A', 'B', 'C', 'D', 'E' five classes.
+- ID dataset: Records examples of student IDs filled, categorized into 0-9 ten classes.
 
 ## How To Use
 
@@ -45,6 +43,10 @@ from torchvision import datasets
 
 
 
+## Terms and Conditions
+- This data set comes from the customized answer sheets of the University of Liverpool. If you use other types of answer sheets(such as SAT answer sheets), the recognition results may be inaccurate.
+- This dataset does not contain any personal information. All raw data do not come from real exam answer sheets, but are filled in manually by the author(s).
+- Commercial use of this dataset is prohibited. If you use this dataset in your project, please include the copyright notice and this permission statement in the software and in all copies of the software.
 
-
-
+## Acknowledgements
+I would like to thank Mr. Chenwei Yin, Mr. Zekai Gong, Mr. Zijian Wang and Mr. Tianyao Qiu. Together they helped create this dataset. At the same time, I would also like to thank Mr. Gubin Zhao for providing the code for positioning and cropping images.
