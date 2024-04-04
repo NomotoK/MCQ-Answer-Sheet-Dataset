@@ -23,8 +23,13 @@ from torchvision import datasets
 ```
 
 ## Preview of the images
-
 ![1](https://github.com/NomotoK/MCQ-Dataset/assets/99944622/b6e374fc-174e-4e96-8ef0-1118e0254be3)
+![111](https://github.com/NomotoK/MCQ-Dataset/assets/99944622/d7df0d34-ebe7-49d3-8ebe-93e726e56b6f)
+![1](https://github.com/NomotoK/MCQ-Dataset/assets/99944622/46b57a23-7648-44a6-ab65-408767bd3538)
+![1081](https://github.com/NomotoK/MCQ-Dataset/assets/99944622/993cbf01-d8a5-4280-ac54-1501be0703ab)
+![1088](https://github.com/NomotoK/MCQ-Dataset/assets/99944622/a6252b05-5074-4cfb-8e5f-7114c4997ce7)
+
+
 answer data
 ![67](https://github.com/NomotoK/MCQ-Dataset/assets/99944622/024ec8f1-2278-4bc3-ad3c-68ba938efa8d)
 id data
