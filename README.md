@@ -20,6 +20,34 @@ from torchvision import datasets
     test_loader = DataLoader(test_data, batch_size=8, shuffle=False)
 ```
 
+You can also use `image_dataset_from_directory` in TensorFlow :
+
+```python
+import tensorflow as tf
+
+# train
+dataset = tf.keras.preprocessing.image_dataset_from_directory(
+    directory='data/answer_data/train',  
+    batch_size=8, 
+    image_size=(256, 256),  
+    shuffle=True, 
+    seed=123, 
+    validation_split=0.2, 
+    subset="training",  
+)
+
+# validation
+validation_dataset = tf.keras.preprocessing.image_dataset_from_directory(
+    directory='data/answer_data/test',
+    batch_size=8,
+    image_size=(256, 256),
+    shuffle=True,
+    seed=123,
+    validation_split=0.2,
+    subset="validation",
+)
+
+```
 ## Preview of the images
 
 ### Answer Data
